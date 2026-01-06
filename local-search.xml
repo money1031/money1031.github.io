@@ -4,24 +4,11 @@
   
   
   <entry>
-    <title>Hello World</title>
-    <link href="/2026/01/06/hello-world/"/>
-    <url>/2026/01/06/hello-world/</url>
+    <title>注塑机液压系统泄漏原因及处理</title>
+    <link href="/2026/01/06/%E6%B3%A8%E5%A1%91%E6%9C%BA%E6%B6%B2%E5%8E%8B%E7%B3%BB%E7%BB%9F%E6%B3%84%E6%BC%8F%E5%8E%9F%E5%9B%A0%E5%8F%8A%E5%A4%84%E7%90%86/"/>
+    <url>/2026/01/06/%E6%B3%A8%E5%A1%91%E6%9C%BA%E6%B6%B2%E5%8E%8B%E7%B3%BB%E7%BB%9F%E6%B3%84%E6%BC%8F%E5%8E%9F%E5%9B%A0%E5%8F%8A%E5%A4%84%E7%90%86/</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>注塑机液压系统疑难解决</title>
-    <link href="/2026/01/06/%E6%B3%A8%E5%A1%91%E6%9C%BA%E6%B6%B2%E5%8E%8B%E7%B3%BB%E7%BB%9F%E7%96%91%E9%9A%BE%E8%A7%A3%E5%86%B3/"/>
-    <url>/2026/01/06/%E6%B3%A8%E5%A1%91%E6%9C%BA%E6%B6%B2%E5%8E%8B%E7%B3%BB%E7%BB%9F%E7%96%91%E9%9A%BE%E8%A7%A3%E5%86%B3/</url>
-    
-    <content type="html"><![CDATA[<p>这里是注塑机液压系统疑难解决的详细说明。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="注塑机液压系统泄漏原因及处理"><a href="#注塑机液压系统泄漏原因及处理" class="headerlink" title="注塑机液压系统泄漏原因及处理"></a><strong>注塑机液压系统泄漏原因及处理</strong></h1><h2 id="一、总概述"><a href="#一、总概述" class="headerlink" title="一、总概述"></a>一、总概述</h2><p>泄漏是注塑机普遍存在的故障现象，主要是由于液体在液压元件和管路中流动时产生压力差及各元件存在间隙等引起泄漏。另外，恶劣工况条件也会对注塑机的密封产生一定的影响。液压系统一旦发生泄漏，将会引起系统压力建立不起来，液压油泄漏还会造成环境污染，影响生产甚至产生无法估计的严重后果。下面针对一些影响注塑机液压系统泄漏的因素来简单的谈一下其泄漏原因及对策。</p><h2 id="二、泄漏的分类"><a href="#二、泄漏的分类" class="headerlink" title="二、泄漏的分类"></a>二、泄漏的分类</h2><p>注塑机液压系统的泄漏主要有两种，固定密封处泄漏和运动密封处泄漏，固定密封处泄漏的部位主要包括缸底、各管接头的连接处等，运动密封处主要包括油缸活塞杆部位、多路阀阀杆等部位。从油液的泄漏上也可分为外泄漏和内泄漏，外泄漏主要是指液压油从系统泄漏到环境中，内泄漏是指由于高低压侧的压力差的存在以及密封件失效等原因，使液压油在系统内部由高压侧流向低压侧。</p><h2 id="三、影响泄漏的原因"><a href="#三、影响泄漏的原因" class="headerlink" title="三、影响泄漏的原因"></a>三、影响泄漏的原因</h2><p><strong>(一)设计因素</strong></p><ol><li>密封件的选择</li></ol><p>液压系统的可靠性，在很大程度上取决于液压系统密封的设计和密封件的选择，由于设计中密封结构选用不合理，密封件的选用不合乎规范，在设计中没有考虑到液压油与密封材料的相容型式、负载情况、极限压力、工作速度大小、环境温度的变化等。这些都在不同程度上直接或间接造成液压系统泄漏。另外，由于注塑机的使用环境中具有尘埃和杂质，所以在设计中要选用合适的防尘密封，避免尘埃等污物进入系统破坏密封、污染油液，从而产生泄漏。</p><ol start="2"><li>其他设计原因</li></ol><p>设计中考虑到运动表面的几何精度和粗糙度不够全面以及在设计中没有进行连接部位的强度校核等，这些都会在机械的工作中引起泄漏。</p><p><strong>(二)制造和装配因素</strong></p><ol><li>制造因素</li></ol><p>所有的液压元件及密封部件都有严格的尺寸公差、表面处理、表面光洁度及形位公差等要求。如果在制造过程中超差，例如：油缸的活塞半径、密封槽深度或宽度、装密封圈的孔尺寸超差或因加工问题而造成失圆、本身有毛刺或有洼点、镀铬脱落等，密封件就会有变形、划伤、压死或压不实等现象发生使其失去密封功能。将使零件本身具有先天性的渗漏点，在装配后或使用过程中发生渗漏。</p><ol start="2"><li>装配因素</li></ol><p>液压元件在装配中应杜绝野蛮操作，如果过度用力将使零件产生变形，特别是用铜棒等敲打缸体、密封法兰等;装配前应对零件进行仔细检查，装配时应将零件蘸少许液压油，轻轻压入，清洗时应用柴油，特别是密封圈、防尘圈、O形圈等橡胶元件，如果用汽油则使其易老化失去原有弹性，从而失去密封机能。</p><p><strong>(三)油液污染及零部件的损伤</strong></p><ol><li>气体污染</li></ol><p>在大气压下，液压油中可溶解10%左右的空气，在液压系统的高压下，在油液中会溶解更多的空气或气体。空气在油液中形成气泡，如果液压支架在工作过程中在极短的时间内，压力在高低压之间迅速变换就会使气泡在高压侧产生高温在低压侧发生爆裂，如果液压系统的元件表面有凹点和损伤时，液压油就会高速冲向元件表面加速表面的磨损，引起泄漏。</p><ol start="2"><li>颗粒污染</li></ol><p>液压油缸作为一些注塑机液压系统的主要执行元件，由于工作过程中活塞杆裸露在外直接和环境相接触，虽然在导向套上装有防尘圈及密封件等，但也难免将尘埃、污物带入液压系统，加速密封件和活塞杆等的划伤和磨损，从而引起泄漏，颗粒污染为液压元件损坏最快的因素之一。</p><ol start="3"><li>水污染</li></ol><p>由于工作环境潮湿等因素的影响，可能会使水进入液压系统，水会与液压油反应，形成酸性物质和油泥，降低液压油的润滑性能，加速部件的磨损，水还会造成控制阀的阀杆发生粘结，使控制阀操纵困难划伤密封件，造成泄漏。</p><ol start="4"><li>零件损伤</li></ol><p>密封件是由耐油橡胶等材料制成，由于长时间的使用发生老化、龟裂、损伤等都会引起系统泄漏。如果零件在工作过程中受碰撞而损伤，会划伤密封元件，从而造成泄漏。</p><h2 id="四、泄漏主要防治对策"><a href="#四、泄漏主要防治对策" class="headerlink" title="四、泄漏主要防治对策"></a>四、泄漏主要防治对策</h2><p>造成注塑机液压系统的泄漏的因素是多方面综合影响的结果，以现有的技术和材料，要想从根本上消除注塑机液压系统的泄漏是很难做到的。只有从以上影响液压系统泄漏因素出发，采取合理的措施尽量减少液压系统泄漏。在设计和加工环节中要充分考虑影响泄漏的重要因素密封沟槽的设计和加工。另外，密封件的选择也是非常重要的，如果不在最初全面考虑泄漏的影响因素，将会给以后的生产中带来无法估量的损失。选择正确的装配和修理方法，借鉴以往的经验。如，在密封圈的装配中尽量采用专用工具、并且在密封圈上涂一些润滑脂。在液压油的污染控制上，要从污染的源头入手，加强污染源的控制，还要采取有效的过滤措施和定期的油液质量检查。为有效的切断外界因素(水、尘埃、颗粒等)对液压油缸的污染，可加一些防护措施等。总之，泄漏的防治要全面入手，综合考虑才能做到行之有效。</p>]]></content>
     
     
     <categories>
@@ -38,93 +25,11 @@
   
   
   <entry>
-    <title>THX-130 节能注塑机</title>
-    <link href="/2026/01/06/THX-130%E6%9C%BA%E5%9E%8B%E4%BB%8B%E7%BB%8D/"/>
-    <url>/2026/01/06/THX-130%E6%9C%BA%E5%9E%8B%E4%BB%8B%E7%BB%8D/</url>
-    
-    <content type="html"><![CDATA[<p>这是宇兴塑机 THX-130 的介绍内容。</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>产品展示</category>
-      
-      <category>THX系列</category>
-      
-    </categories>
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>XT-120 节能注塑机</title>
-    <link href="/2026/01/06/XT-120%E6%9C%BA%E5%9E%8B%E4%BB%8B%E7%BB%8D/"/>
-    <url>/2026/01/06/XT-120%E6%9C%BA%E5%9E%8B%E4%BB%8B%E7%BB%8D/</url>
-    
-    <content type="html"><![CDATA[<p>这是宇兴塑机 XT-120 的介绍内容。</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>产品展示</category>
-      
-      <category>XT系列</category>
-      
-    </categories>
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>YX-780</title>
-    <link href="/2026/01/06/YX-780%E6%9C%BA%E5%9E%8B%E4%BB%8B%E7%BB%8D/"/>
-    <url>/2026/01/06/YX-780%E6%9C%BA%E5%9E%8B%E4%BB%8B%E7%BB%8D/</url>
-    
-    <content type="html"><![CDATA[<h1 id="射出部分"><a href="#射出部分" class="headerlink" title="射出部分"></a>射出部分</h1><p><img src="/img/yx780/yx780-sc.png" alt="射出部分"></p><h1 id="液压部分"><a href="#液压部分" class="headerlink" title="液压部分"></a>液压部分</h1><p><img src="/img/yx780/yx780-yy.png" alt="液压部分"></p><h1 id="电控部分"><a href="#电控部分" class="headerlink" title="电控部分"></a>电控部分</h1><p><img src="/img/yx780/yx780-dk.png" alt="电控部分"></p><h1 id="锁模部分"><a href="#锁模部分" class="headerlink" title="锁模部分"></a>锁模部分</h1><p><img src="/img/yx780/yx780-sm.png" alt="锁模部分"></p><h1 id="调模部分"><a href="#调模部分" class="headerlink" title="调模部分"></a>调模部分</h1><p><img src="/img/yx780/yx780-tm.png" alt="调模部分"></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>产品展示</category>
-      
-      <category>YX系列</category>
-      
-    </categories>
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>注塑模具维护与保养的十五点建议</title>
-    <link href="/2020/06/22/text/"/>
-    <url>/2020/06/22/text/</url>
+    <link href="/2002/01/06/%E6%B3%A8%E5%A1%91%E6%A8%A1%E5%85%B7%E7%BB%B4%E6%8A%A4%E4%B8%8E%E4%BF%9D%E5%85%BB%E7%9A%84%E5%8D%81%E4%BA%94%E7%82%B9%E5%BB%BA%E8%AE%AE/"/>
+    <url>/2002/01/06/%E6%B3%A8%E5%A1%91%E6%A8%A1%E5%85%B7%E7%BB%B4%E6%8A%A4%E4%B8%8E%E4%BF%9D%E5%85%BB%E7%9A%84%E5%8D%81%E4%BA%94%E7%82%B9%E5%BB%BA%E8%AE%AE/</url>
     
-    <content type="html"><![CDATA[<h1 id="标题一"><a href="#标题一" class="headerlink" title="标题一"></a>标题一</h1><h2 id="标题二"><a href="#标题二" class="headerlink" title="标题二"></a>标题二</h2><h3 id="标题三"><a href="#标题三" class="headerlink" title="标题三"></a>标题三</h3><h4 id="标题四"><a href="#标题四" class="headerlink" title="标题四"></a>标题四</h4><p><strong>这是加粗</strong></p><p><em>这是斜体</em></p><p><del>这是横线</del></p><ul><li>无序列表</li><li>无序列表</li></ul><ol><li>有序列表1</li><li>有序列表2</li></ol><p><code>内嵌代码</code></p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs">代码块<br></code></pre></td></tr></table></figure><blockquote><p>引用</p></blockquote>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>text</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>注塑模具维护与保养的十五点建议</title>
-    <link href="/2020/06/22/%E6%B3%A8%E5%A1%91%E6%A8%A1%E5%85%B7%E7%BB%B4%E6%8A%A4%E4%B8%8E%E4%BF%9D%E5%85%BB%E7%9A%84%E5%8D%81%E4%BA%94%E7%82%B9%E5%BB%BA%E8%AE%AE/"/>
-    <url>/2020/06/22/%E6%B3%A8%E5%A1%91%E6%A8%A1%E5%85%B7%E7%BB%B4%E6%8A%A4%E4%B8%8E%E4%BF%9D%E5%85%BB%E7%9A%84%E5%8D%81%E4%BA%94%E7%82%B9%E5%BB%BA%E8%AE%AE/</url>
-    
-    <content type="html"><![CDATA[<h1 id="注塑模具维护与保养的十五点建议"><a href="#注塑模具维护与保养的十五点建议" class="headerlink" title="注塑模具维护与保养的十五点建议"></a>注塑模具维护与保养的十五点建议</h1><ol><li>选择合适的成型设备，确定合理的工艺条件，若注塑机太小则满足不了要求，太大又是能源的浪费，并且又会因合模力调节不合适而损坏模具或模板，同时又使效率降低。</li></ol><p>选择注射机时，应按最大注射量，拉杆有效距离，模板上模具安装尺寸，最大模厚，最小模厚，模板行程，顶出方式，顶出行程，注射压力，合模力等各项进行核查，懑足要求后方可使用。工艺条件的合理确定也是正确使用模具的内容之一，锁模力太大，注射压力太高，注射的速率太快，模温过高等都会对模具使用寿命造成损害。</p><ol start="2"><li><p>模具装上注射机后，要先进行空模运转。观察其各部位运行动作是否灵活，是否有 不正常现象，顶出行程，开启行程是否到位，合模时分型面是否吻合严密，压板螺丝是否拧紧等。</p></li><li><p>模具使用时，要保持正常温度，在正常温下工作，可延长模具使用寿命。</p></li><li><p>模具上的滑动部件，如导柱、回针、推杆、型芯等，要随时观察，定时检查，适时擦洗并加注润滑油脂，尤其在夏季温度较高时，每班最少加两次油，以保证这些滑动件运动灵活，防止紧涩咬死。</p></li><li><p>每次锁模前，均应注意，型腔内是否清理干净，绝对不准留有残余制品，或其它任何异物，清理时严禁使用坚硬工具，以防碰伤型腔表面。</p></li><li><p>型腔表面有特殊要求的模具，表面粗糙度Ra小于或等于0.2cm,绝对不能用手抹或棉丝擦,应用压缩空气吹,或用高级餐巾纸和高级脱脂棉蘸上酒精轻轻地擦抹.</p></li><li><p>型腔表面要定期进行清洗,注射模具在成型过程中往往会分解出低分子化合物腐蚀模具型腔,使得光亮的型腔表面逐渐变得暗淡无光而降低制品质量,因此需要定期擦洗,擦洗可以使用醇类或酮类制剂擦洗后要及时吹干.</p></li><li><p>操作离开需临时停机时,应把模具闭合上,不让型腔和型芯暴露在外,以防意外损伤,停机时间预计超过24小时,要在型腔、型芯表面喷上防锈油或脱模剂，尤其在潮湿地区和雨季，时间再短也要做防锈处理。</p></li></ol><p>空气中的水汽会使模腔表面质量降低，制品表面质量下降。模具再次使用时，应将模具上的油去除，擦干净后才可使用，有镜面要求的清洗压缩空气吹干后再用热风吹干，否则会在成型时渗出而使制品出现缺陷。</p><ol start="9"><li><p>临时停机后开机，打开模具后应检查滑块限位是否移动，未发现异常才能合模。总之，开机前一定要小心谨慎，不可粗心大意。</p></li><li><p>为延长冷却水道的使用寿命，在模具停用时，应立即用压缩空气将冷却水道内的水清除，用少量机油放入咀口部，再用压缩空气吹，使所有冷却管道有一层防锈油层。</p></li><li><p>工作中认真检查各控制部件的工作状态，严防辅助系统发生异常，加热，控制系统的保养对热流道模具尤为重要。在每一个生产周期结束后，都应对棒式加热器，带式加热器，热电偶学用欧母进行测量，并与模具的技术说明资料相比较，以保证其功能的完好。与此同时，控制回路可能通过安装在回路内的电流表测试。抽芯用的液压缸中的油尽可能排空，油嘴密封，以免在储运过程中液压油外泄或污染周围的环境。</p></li><li><p>在生产中听到模具发出异声或出现其它异常情况，应立即停机检查。模具维修人员对车间内正常运行的模具要进行巡回检查，发现有异常现象时，应及时处理。</p></li><li><p>操作工在交接班时，除了交接生产，工艺紧要关键记录外，对模具使用状况也要有详细的交待。</p></li><li><p>当模具完成制品生产数量，要下机更换其它模具时，应将模具型腔内涂上防锈剂，将模具其附件送交模具保养员，并附最后一模生产合格的制品作为样件一起送交保养员。此外，还应送交一份模具使用清单，详细填写该模具在什么机床上，从某年某月某日，共生产多少数量制品，现在模具是否良好。若模具有问题，要在使用单上填写该模具存在什么问题，提出修改和完善的具体要求，并交一模未处理的样品给保管员，留给模具工修模时参考。</p></li><li><p>应设立模具库，设专人管理，并建立模具档案，有可能的话要对模具实行计算机管理。模具库应选择潮气小通风的地方，温度应保持在70%以下，若湿度超过70%，则模具很容易生锈，模具应上架存放，注意防腐蚀，防尘等。要标上需要修理或完成修理、保养的标识。</p></li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="注塑模具维护与保养的十五点建议"><a href="#注塑模具维护与保养的十五点建议" class="headerlink" title="注塑模具维护与保养的十五点建议"></a>注塑模具维护与保养的十五点建议</h1><ol><li><p>选择合适的成型设备，确定合理的工艺条件，若注塑机太小则满足不了要求，太大又是能源的浪费，并且又会因合模力调节不合适而损坏模具或模板，同时又使效率降低。选择注射机时，应按最大注射量，拉杆有效距离，模板上模具安装尺寸，最大模厚，最小模厚，模板行程，顶出方式，顶出行程，注射压力，合模力等各项进行核查，懑足要求后方可使用。工艺条件的合理确定也是正确使用模具的内容之一，锁模力太大，注射压力太高，注射的速率太快，模温过高等都会对模具使用寿命造成损害。</p></li><li><p>模具装上注射机后，要先进行空模运转。观察其各部位运行动作是否灵活，是否有 不正常现象，顶出行程，开启行程是否到位，合模时分型面是否吻合严密，压板螺丝是否拧紧等。</p></li><li><p>模具使用时，要保持正常温度，在正常温下工作，可延长模具使用寿命。</p></li><li><p>模具上的滑动部件，如导柱、回针、推杆、型芯等，要随时观察，定时检查，适时擦洗并加注润滑油脂，尤其在夏季温度较高时，每班最少加两次油，以保证这些滑动件运动灵活，防止紧涩咬死。</p></li><li><p>每次锁模前，均应注意，型腔内是否清理干净，绝对不准留有残余制品，或其它任何异物，清理时严禁使用坚硬工具，以防碰伤型腔表面。</p></li><li><p>型腔表面有特殊要求的模具，表面粗糙度Ra小于或等于0.2cm,绝对不能用手抹或棉丝擦,应用压缩空气吹,或用高级餐巾纸和高级脱脂棉蘸上酒精轻轻地擦抹.</p></li><li><p>型腔表面要定期进行清洗,注射模具在成型过程中往往会分解出低分子化合物腐蚀模具型腔,使得光亮的型腔表面逐渐变得暗淡无光而降低制品质量,因此需要定期擦洗,擦洗可以使用醇类或酮类制剂擦洗后要及时吹干.</p></li><li><p>操作离开需临时停机时,应把模具闭合上,不让型腔和型芯暴露在外,以防意外损伤,停机时间预计超过24小时,要在型腔、型芯表面喷上防锈油或脱模剂，尤其在潮湿地区和雨季，时间再短也要做防锈处理。空气中的水汽会使模腔表面质量降低，制品表面质量下降。模具再次使用时，应将模具上的油去除，擦干净后才可使用，有镜面要求的清洗压缩空气吹干后再用热风吹干，否则会在成型时渗出而使制品出现缺陷。</p></li><li><p>临时停机后开机，打开模具后应检查滑块限位是否移动，未发现异常才能合模。总之，开机前一定要小心谨慎，不可粗心大意。</p></li><li><p>为延长冷却水道的使用寿命，在模具停用时，应立即用压缩空气将冷却水道内的水清除，用少量机油放入咀口部，再用压缩空气吹，使所有冷却管道有一层防锈油层。</p></li><li><p>工作中认真检查各控制部件的工作状态，严防辅助系统发生异常，加热，控制系统的保养对热流道模具尤为重要。在每一个生产周期结束后，都应对棒式加热器，带式加热器，热电偶学用欧母进行测量，并与模具的技术说明资料相比较，以保证其功能的完好。与此同时，控制回路可能通过安装在回路内的电流表测试。抽芯用的液压缸中的油尽可能排空，油嘴密封，以免在储运过程中液压油外泄或污染周围的环境。</p></li><li><p>在生产中听到模具发出异声或出现其它异常情况，应立即停机检查。模具维修人员对车间内正常运行的模具要进行巡回检查，发现有异常现象时，应及时处理。</p></li><li><p>操作工在交接班时，除了交接生产，工艺紧要关键记录外，对模具使用状况也要有详细的交待。</p></li><li><p>当模具完成制品生产数量，要下机更换其它模具时，应将模具型腔内涂上防锈剂，将模具其附件送交模具保养员，并附最后一模生产合格的制品作为样件一起送交保养员。此外，还应送交一份模具使用清单，详细填写该模具在什么机床上，从某年某月某日，共生产多少数量制品，现在模具是否良好。若模具有问题，要在使用单上填写该模具存在什么问题，提出修改和完善的具体要求，并交一模未处理的样品给保管员，留给模具工修模时参考。</p></li><li><p>应设立模具库，设专人管理，并建立模具档案，有可能的话要对模具实行计算机管理。模具库应选择潮气小通风的地方，温度应保持在70%以下，若湿度超过70%，则模具很容易生锈，模具应上架存放，注意防腐蚀，防尘等。要标上需要修理或完成修理、保养的标识。</p></li></ol>]]></content>
     
     
     <categories>
@@ -132,6 +37,27 @@
       <category>新闻资讯</category>
       
       <category>维护保养</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>text</title>
+    <link href="/2000/01/06/text/"/>
+    <url>/2000/01/06/text/</url>
+    
+    <content type="html"><![CDATA[<h1 id="标题一"><a href="#标题一" class="headerlink" title="标题一"></a>标题一</h1><h2 id="标题二"><a href="#标题二" class="headerlink" title="标题二"></a>标题二</h2><h3 id="标题三"><a href="#标题三" class="headerlink" title="标题三"></a>标题三</h3><h4 id="标题四"><a href="#标题四" class="headerlink" title="标题四"></a>标题四</h4><p><strong>这是加粗</strong></p><p><em>这是斜体</em></p><p><del>这是横线</del></p><ul><li>无序列表</li><li>无序列表</li></ul><ol><li>有序列表1</li><li>有序列表2</li></ol><p><code>内嵌代码</code></p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs">代码块<br></code></pre></td></tr></table></figure><blockquote><p>引用</p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>text</category>
+      
+      <category>caogao</category>
       
     </categories>
     
