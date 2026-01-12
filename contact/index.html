@@ -28,8 +28,8 @@
 <meta property="og:site_name">
 <meta property="og:description" content="宇兴塑机,联系方式,宁波宇兴塑料机械厂,邮箱,电话,地址">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2026-01-12T01:21:48.023Z">
-<meta property="article:modified_time" content="2026-01-12T01:21:48.023Z">
+<meta property="article:published_time" content="2026-01-12T02:12:12.978Z">
+<meta property="article:modified_time" content="2026-01-12T02:12:12.978Z">
 <meta property="article:author" content="宁波宇兴塑料机械厂">
 <meta property="article:tag" content="宁波宇兴塑料机械厂,宇兴塑机,注塑机,塑料机械,注塑机厂家,THX注塑机,XT注塑机,YX注塑机">
 <meta name="twitter:card" content="summary_large_image">
@@ -252,23 +252,20 @@
 <li><strong>地址：</strong> 宁波市镇海区镇宁西路381号</li>
 <li><strong>电话：</strong> 0574-83032202</li>
 <li><strong>传真：</strong> 0574-83032203</li>
-<li><strong>邮箱：</strong> <a href="mailto:&#110;&#x62;&#x79;&#x75;&#x78;&#x69;&#110;&#103;&#x40;&#x31;&#50;&#54;&#x2e;&#99;&#111;&#109;">nbyuxing@126.com</a></li>
+<li><strong>邮箱：</strong> <a href="mailto:&#x6e;&#98;&#121;&#x75;&#120;&#105;&#110;&#x67;&#64;&#x31;&#50;&#x36;&#46;&#x63;&#x6f;&#x6d;">nbyuxing@126.com</a></li>
 <li><strong>邮编：</strong> 315015</li>
 </ul>
 <hr>
-<h3 id="公司地图"><a href="#公司地图" class="headerlink" title="公司地图"></a>公司地图</h3><div style="position:relative;width:100%;height:420px;border-radius:12px;overflow:hidden;">
+<h3 id="公司地图"><a href="#公司地图" class="headerlink" title="公司地图"></a>公司地图</h3><div class="about-map-wrapper">
   <iframe
     src="https://map.baidu.com/search/%E5%85%83%E6%98%8E%E6%9C%BA%E6%A2%B0/@13545100.925,3471283.41,19z,-44.4h?querytype=s&wd=%E5%85%83%E6%98%8E%E6%9C%BA%E6%A2%B0&device_ratio=1"
-    width="100%"
-    height="100%"
     frameborder="0">
   </iframe>
 
   <!-- 导航按钮 -->
-  <div class="nav-btn" id="navBtn">
-    📍 导航前往
-  </div>
+  <div class="nav-btn" id="navBtn">📍 导航前往</div>
 
+  <!-- 地图选择 -->
   <div class="map-select" id="mapSelect">
     <div class="map-item" data-map="baidu">百度地图</div>
     <div class="map-item" data-map="amap">高德地图</div>
@@ -283,20 +280,24 @@
   const navBtn = document.getElementById("navBtn");
   const panel = document.getElementById("mapSelect");
   const items = document.querySelectorAll(".map-item");
+  const isMobile = /iphone|ipad|ipod|android/i.test(navigator.userAgent);
 
   navBtn.onclick = function () {
-    if (/iphone|ipad|ipod|android/i.test(navigator.userAgent)) {
+    if (isMobile) {
       panel.style.display = "block";
     } else {
       window.open(
-        `https://map.baidu.com/dir/?destination=${encodeURIComponent(poiName)}`,
+        "https://map.baidu.com/dir/?destination=" + encodeURIComponent(poiName),
         "_blank"
       );
     }
   };
 
+  // 点击遮罩关闭
   panel.onclick = function (e) {
-    if (e.target === panel) panel.style.display = "none";
+    if (e.target === panel) {
+      panel.style.display = "none";
+    }
   };
 
   items.forEach(item => {
@@ -306,24 +307,26 @@
 
       switch (type) {
         case "baidu":
-          url = `baidumap://map/direction?destination=${encodeURIComponent(poiName)}&mode=driving`;
+          url = "baidumap://map/direction?destination=" + encodeURIComponent(poiName) + "&mode=driving";
           break;
         case "amap":
-          url = `androidamap://route?sourceApplication=browser&dname=${encodeURIComponent(poiName)}&dev=0&t=0`;
+          url = "androidamap://route?sourceApplication=browser&dname=" + encodeURIComponent(poiName) + "&t=0";
           break;
         case "tencent":
-          url = `qqmap://map/routeplan?type=drive&to=${encodeURIComponent(poiName)}`;
+          url = "qqmap://map/routeplan?type=drive&to=" + encodeURIComponent(poiName);
           break;
         case "apple":
-          url = `http://maps.apple.com/?daddr=${encodeURIComponent(poiName)}`;
+          url = "http://maps.apple.com/?daddr=" + encodeURIComponent(poiName);
           break;
       }
 
+      // 尝试唤起 App
       window.location.href = url;
 
+      // 失败兜底：浏览器打开百度地图
       setTimeout(() => {
         window.open(
-          `https://map.baidu.com/dir/?destination=${encodeURIComponent(poiName)}`,
+          "https://map.baidu.com/dir/?destination=" + encodeURIComponent(poiName),
           "_blank"
         );
       }, 2000);
@@ -333,6 +336,7 @@
   });
 })();
 </script>
+
 
   
 
