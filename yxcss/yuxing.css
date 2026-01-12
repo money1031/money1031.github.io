@@ -93,6 +93,17 @@
   font-size: 0;
   padding: 0;
 }
+/* 移动端 Navbar Logo 自适应 */
+@media (max-width: 768px) {
+
+  .navbar-brand {
+    width: 150px;      /* ⭐手机端宽度，防止太长 */
+    height: 34px;      /* ⭐关键：控制 navbar 高度 */
+    background-position: left center;
+    background-size: contain;
+  }
+
+}
 
 /* ===============================
    首页打字机 Slogan
@@ -119,6 +130,31 @@
   letter-spacing: 1px;
   margin-top: 6px;
 }
+/* 首页打字机 Slogan（移动端优化）*/
+@media (max-width: 768px) {
+
+  .home-slogan {
+    padding: 0 16px;          /* ⭐防止左右贴边 */
+  }
+
+  .home-slogan .line-1 {
+    font-size: 30px;          /* 原来 56px → 手机太大 */
+    line-height: 1.3;
+  }
+
+  .home-slogan .line-2 {
+    font-size: 18px;          /* 原来 30px */
+    margin-top: 6px;
+  }
+
+  .home-slogan .line-3 {
+    font-size: 14px;          /* 原来 20px */
+    margin-top: 4px;
+    letter-spacing: 0.5px;
+  }
+
+}
+
 
 /* ===============================
    About 页面头像完整显示
@@ -323,6 +359,74 @@
   color: #fff;
   cursor: pointer;
 }
+/* 产品详情页移动端优化 */
+@media (max-width: 768px) {
+
+  /* Tab 容器改成可滚动横向排列 */
+  .product-tabs {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* 滑动更顺畅 */
+    margin: 20px 0;
+    padding-bottom: 5px;
+  }
+
+  /* Tab 按钮更小更紧凑 */
+  .tab-btn {
+    flex: 0 0 auto;   /* 横向不压缩 */
+    margin: 0 6px;
+    padding: 6px 14px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+  .tab-btn.active {
+    font-size: 14px;
+  }
+
+  /* Tab 内容宽度自适应，图片占满屏幕 */
+  .tab-content {
+    max-width: 100%;
+    margin: 0 auto 30px;
+  }
+
+  /* 图片竖向排列，撑满屏幕宽度 */
+  .img-row {
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 20px;
+  }
+
+  .img-row img {
+    width: 100%;
+  }
+
+  /* 参数按钮放到图片下方，防止挡住图片 */
+  .param-btn {
+    position: relative;
+    top: auto;
+    right: auto;
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+
+  /* 弹出层图片适应屏幕 */
+  .img-popup img {
+    max-width: 95%;
+    max-height: 80%;
+  }
+
+  /* 弹出层关闭按钮缩小 */
+  .img-popup .close {
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+  }
+
+}
+
 
 /* ===============================
    页面 Banner 三图轮播
