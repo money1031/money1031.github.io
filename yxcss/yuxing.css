@@ -538,12 +538,23 @@ body.no-scroll {
   background: #fff;
 }
 
-/* 移动端 */
+/* ===============================
+   Banner 移动端显示优化（宽图友好）
+   =============================== */
 @media (max-width: 768px) {
+
   .page-banner-slider {
-    height: 38vh;
-    min-height: 240px;
+    height: 32vh;
+    min-height: 200px;
   }
+
+  .banner-slide {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000;
+  }
+
 }
 
 /* ===============================
