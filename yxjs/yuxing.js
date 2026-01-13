@@ -15,42 +15,42 @@ $(function () {
 
 
   /* =========================
-     图片 / 参数 点击放大
-     ========================= */
-  function openPopup(imgSrc) {
-    const popupImg = $('#popupImg');
-    
-    // 动态设置图片源
-    popupImg.attr('src', imgSrc);
+   图片 / 参数 点击放大
+   ========================= */
+function openPopup(imgSrc) {
+  const popupImg = $('#popupImg');
 
-    // 强制延迟，以确保图片正确显示并居中
-    setTimeout(function() {
-      $('#imgPopup').fadeIn(200).addClass('show');
-      $('body').addClass('no-scroll');
-    }, 10);  // 延迟 10ms 确保图片加载
+  // 动态设置图片源
+  popupImg.attr('src', imgSrc);
 
-    // 监听图片加载事件，确保居中
-    popupImg.on('load', function() {
-      // 强制更新样式，确保居中
-      $('#imgPopup').addClass('show');
-    });
-  }
-
-  function closePopup() {
-    $('#imgPopup').fadeOut(200).removeClass('show');
-    $('body').removeClass('no-scroll');
-  }
-
-  // 点击图片
-  $('.zoom-img').on('click', function () {
-    openPopup($(this).attr('src'));
+  // 监听图片加载事件，确保居中
+  popupImg.on('load', function () {
+    // 图片加载完成后显示弹出层
+    $('#imgPopup').fadeIn(200).addClass('show');
+    $('body').addClass('no-scroll');
   });
 
-  // 点击参数按钮
-  $('.param-btn').on('click', function () {
-    openPopup($(this).data('img'));
-  });
+  // 如果图片已经加载完成，直接显示弹出层
+  if (popupImg[0].complete) {
+    $('#imgPopup').fadeIn(200).addClass('show');
+    $('body').addClass('no-scroll');
+  }
+}
 
+function closePopup() {
+  $('#imgPopup').fadeOut(200).removeClass('show');
+  $('body').removeClass('no-scroll');
+}
+
+// 点击图片
+$('.zoom-img').on('click', function () {
+  openPopup($(this).attr('src'));
+});
+
+// 点击参数按钮
+$('.param-btn').on('click', function () {
+  openPopup($(this).data('img'));
+});
 
   /* =========================
      关闭逻辑（三重保险）
